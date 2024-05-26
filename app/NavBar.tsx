@@ -16,16 +16,16 @@ const NavBar = () => {
   return (
     <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center">
       <Link href="/">
-        <SiDrupal />
+        <SiDrupal className="text-purple-300" />
       </Link>
       <ul className="flex space-x-6">
         {links.map((link) => (
           <Link
             key={link.href}
             className={classnames({
-              "text-zinc-950 font-bold": link.href === currentPath,
-              "text-zinc-600 font-normal": link.href !== currentPath,
-              "hover:text-zinc-800 transition-colors": true,
+              "text-purple-300 font-bold": link.href === currentPath,
+              "text-purple-600 font-normal": link.href !== currentPath,
+              "hover:text-purple-500 transition-colors": true,
             })}
             href={link.href}
           >
