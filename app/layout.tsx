@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.variable}>
+        {/* Styling theme created with Radix UI */}
         <Theme appearance="dark" accentColor="violet">
           <NavBar />
           <main className="p-5">{children}</main>
