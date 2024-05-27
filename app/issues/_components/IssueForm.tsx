@@ -44,6 +44,7 @@ const IssueForm = ({ issue }: { issue?: Issue }) => {
 
       //push data and send user to the issues page
       router.push("/issues");
+      router.refresh();
     } catch (error) {
       setSubmitting(false);
       setError("An unforseen error occurred.");
