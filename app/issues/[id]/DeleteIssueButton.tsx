@@ -1,12 +1,16 @@
 "use client";
 import { AlertDialog, Button, Flex } from "@radix-ui/themes";
+import { TrashIcon } from "@radix-ui/react-icons";
 
 const DeleteIssueButton = ({ issueId }: { issueId: number }) => {
   return (
     <>
       <AlertDialog.Root>
         <AlertDialog.Trigger>
-          <Button color="tomato">DELETE</Button>
+          <Button color="tomato">
+            <TrashIcon />
+            DELETE
+          </Button>
         </AlertDialog.Trigger>
         <AlertDialog.Content>
           <AlertDialog.Title>CONFIRM DELETE</AlertDialog.Title>
@@ -14,7 +18,7 @@ const DeleteIssueButton = ({ issueId }: { issueId: number }) => {
             Are you sure you want to delete this issue? This action cannot be
             reversed.
           </AlertDialog.Description>
-          <Flex mt="4" gap="4">
+          <Flex mt="4" gap="4" className="float-right">
             <AlertDialog.Cancel>
               <Button variant="soft" color="gray">
                 CANCEL
