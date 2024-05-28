@@ -17,3 +17,9 @@
 body {
   color: #000;
 }
+
+@layer utilities {
+  .nav-link {
+    @apply text-purple-600 hover:text-purple-500 transition-colors;
+  }
+}
