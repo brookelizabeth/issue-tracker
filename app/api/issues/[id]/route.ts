@@ -35,7 +35,7 @@ export async function PATCH(
             });
 
             if (!issue)
-                return NextResponse.json({ error: "Invalid issue"}, { status: 404 })
+                return NextResponse.json({ error: "Invalid issue"}, { status: 404 });
 
             await prisma.issue.delete({
                 where: { id: issue.id }
