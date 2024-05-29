@@ -26,7 +26,7 @@ const AssigneeSelect = ({ issue }: { issue: Issue }) => {
 
   return (
     <>
-      {/* Selection box to assign a user to an issue */}
+      {/* Selection box from Radix UI - to assign a user to an issue */}
       <Select.Root
         defaultValue={issue.assignedToUserId || ""}
         onValueChange={assignIssue}
@@ -35,7 +35,7 @@ const AssigneeSelect = ({ issue }: { issue: Issue }) => {
         <Select.Content>
           <Select.Group>
             <Select.Label>Suggestions</Select.Label>
-            <Select.Item value="">Unassigned</Select.Item>
+            <Select.Item value="unassigned">Unassigned</Select.Item>
             {users?.map((user) => (
               <Select.Item key={user.id} value={user.id}>
                 {user.name}
