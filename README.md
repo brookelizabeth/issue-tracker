@@ -27,8 +27,21 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Tailwind CSS
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - A utility first CSS framework.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Radix UI
+- [Radix UI Documentation](https://www.radix-ui.com/themes/docs/overview/getting-started) - Radix Themes is a pre-styled component library that is designed to work out of the box with minimal configuration.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+React SimpleMDE (Markdown Editor)
+- [React SimpleMDE Documentation](https://www.npmjs.com/package/react-simplemde-editor#install) - Text Area editor which includes functionality expected of your standard text editor.  Examples: bold font, italics, blockquote, add image
+
+React Hook Form
+- [React Hook Form Documentation](https://react-hook-form.com/) - Performant, flexible and extensible forms with easy to use validation.
+
+Zod
+- [Zod Documentation](https://zod.dev/) - TypeScript-first schema validation with static type inference.
+
+Axios
+- [Axios Documentation](https://axios-http.com/docs/intro) - Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
+
