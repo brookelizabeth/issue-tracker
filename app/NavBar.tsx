@@ -17,12 +17,12 @@ import { Skeleton } from "@/app/components";
 
 const NavBar = () => {
   return (
-    <nav className="border-b mb-5 px-5 py-3">
+    <nav className="border-b-4 border-b-purple-300 mb-5 px-5 py-6">
       <Container>
         <Flex justify="between">
-          <Flex align="center" gap="3">
+          <Flex align="center" gap="6">
             <Link href="/">
-              <SiDrupal className="text-purple-300" />
+              <SiDrupal className="text-purple-300 w-6 h-6" />
             </Link>
             <NavLinks />
           </Flex>
@@ -44,7 +44,7 @@ const NavLinks = () => {
   return (
     <ul className="flex space-x-6">
       {links.map((link) => (
-        <li key={link.href}>
+        <li className="text-xl" key={link.href}>
           <Link
             className={classnames({
               "nav-link": true,
@@ -79,7 +79,7 @@ const AuthStatus = () => {
           <Avatar
             src={session!.user!.image!}
             fallback={"?"}
-            size="2"
+            size="4"
             radius="full"
             className="cursor-pointer"
             referrerPolicy="no-referrer"
