@@ -45,3 +45,6 @@ Zod
 Axios
 - [Axios Documentation](https://axios-http.com/docs/intro) - Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
 
+Prisma
+- [Prisma Documentation](https://www.prisma.io/) - Prisma provides the best experience for your team to work and interact with databases. Even complex things like connection pooling, caching, real-time database subscriptions are a breeze with our products.
+Build your application, fortify to make everything run smoothly, and grow with your users and requirements.
